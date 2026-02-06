@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  postgresql:
+    container_name: gestao_vagas_postgress
+    image: "bitnami/postgresql:latest"
+    ports:
+      - "1234:5432"
+    environment:
+      - POSTGRESQL_USERNAME=admin
+      - POSTGRESQL_PASSWORD=admin
+      - POSTGRESQL_DATABASE=gestao_vagas_db

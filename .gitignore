@@ -1,0 +1,17 @@
+# Arquivos compilados (O mais importante)
+/target/
+
+# Arquivos de IDE (VS Code)
+.vscode/
+
+# Arquivos temporários e de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do Maven (Opcional, mas recomendado se você não quiser forçar versão)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Logs de erro (Se houver)
+*.log
